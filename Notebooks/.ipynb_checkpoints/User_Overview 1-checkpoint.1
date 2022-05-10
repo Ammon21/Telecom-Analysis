@@ -2,7 +2,7 @@
  "cells": [
   {
    "cell_type": "markdown",
-   "id": "4857b29d",
+   "id": "0108d1f8",
    "metadata": {},
    "source": [
     "# User Overview 1.1"
@@ -10,7 +10,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "fc477992",
+   "id": "df6d8c1e",
    "metadata": {},
    "source": [
     "## Data Understanding and Cleaning"
@@ -18,19 +18,19 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 2,
-   "id": "85d54dfb",
+   "execution_count": 1,
+   "id": "b1b9a6e5",
    "metadata": {},
    "outputs": [],
    "source": [
     "import pandas as pd\n",
-    "import numpy as np\n"
+    "import numpy as np"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
-   "id": "c1d82199",
+   "execution_count": 2,
+   "id": "e71a4857",
    "metadata": {},
    "outputs": [
     {
@@ -555,7 +555,7 @@
        "4       569138589.0  "
       ]
      },
-     "execution_count": 3,
+     "execution_count": 2,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -573,7 +573,7 @@
   {
    "cell_type": "code",
    "execution_count": 3,
-   "id": "8d72dc83",
+   "id": "be78aedd",
    "metadata": {},
    "outputs": [
     {
@@ -652,7 +652,7 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "6d05e2e5",
+   "id": "912b8ed1",
    "metadata": {},
    "outputs": [
     {
@@ -670,7 +670,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "e169c9cf",
+   "id": "eaddecb0",
    "metadata": {},
    "source": [
     "#### Handling Missing Values"
@@ -679,7 +679,7 @@
   {
    "cell_type": "code",
    "execution_count": 5,
-   "id": "dbd04c08",
+   "id": "50bf2568",
    "metadata": {},
    "outputs": [
     {
@@ -712,7 +712,7 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "56e73542",
+   "id": "ae32217a",
    "metadata": {},
    "outputs": [
     {
@@ -787,8 +787,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 6,
-   "id": "56646c21",
+   "execution_count": 7,
+   "id": "85bc7dc0",
    "metadata": {},
    "outputs": [
     {
@@ -797,7 +797,7 @@
        "(150001, 50)"
       ]
      },
-     "execution_count": 6,
+     "execution_count": 7,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -810,8 +810,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
-   "id": "65b1bfac",
+   "execution_count": null,
+   "id": "fcd8fa30",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -840,14 +840,14 @@
   {
    "cell_type": "code",
    "execution_count": 8,
-   "id": "666471b4",
+   "id": "354e3a56",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "The Telecom Financial dataset contains 1.84 % missing values.\n"
+      "The Telecom Financial dataset contains 6.98 % missing values.\n"
      ]
     }
    ],
@@ -857,7 +857,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "bf86f1d7",
+   "id": "37644817",
    "metadata": {},
    "source": [
     "#### The missing data percent has increased from 12% to 1.84%"
@@ -865,7 +865,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "0544a8e3",
+   "id": "14852939",
    "metadata": {},
    "source": [
     "## Data Exploration"
@@ -874,13 +874,13 @@
   {
    "cell_type": "code",
    "execution_count": 9,
-   "id": "035cba26",
+   "id": "2c3449a6",
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "Huawei B528S-23A                29311\n",
+       "Huawei B528S-23A                19752\n",
        "Apple iPhone 6S (A1688)          9419\n",
        "Apple iPhone 6 (A1586)           9023\n",
        "Apple iPhone 7 (A1778)           6326\n",
@@ -904,7 +904,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "db13c250",
+   "id": "3568dc6b",
    "metadata": {},
    "source": [
     "#### The top 10 handset used by customers"
@@ -913,7 +913,7 @@
   {
    "cell_type": "code",
    "execution_count": 10,
-   "id": "193dce94",
+   "id": "529fce3e",
    "metadata": {},
    "outputs": [
     {
@@ -939,7 +939,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "37d97a63",
+   "id": "f73c80fa",
    "metadata": {},
    "source": [
     "#### The top 3 Handset manufacturers"
@@ -948,7 +948,7 @@
   {
    "cell_type": "code",
    "execution_count": 11,
-   "id": "425d92fd",
+   "id": "839d4304",
    "metadata": {},
    "outputs": [
     {
@@ -972,7 +972,7 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "34a858db",
+   "id": "a28f29aa",
    "metadata": {},
    "outputs": [
     {
@@ -996,7 +996,7 @@
   {
    "cell_type": "code",
    "execution_count": 13,
-   "id": "5d12a22e",
+   "id": "17166841",
    "metadata": {},
    "outputs": [
     {
@@ -1019,7 +1019,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "cf0cfa3b",
+   "id": "ac762892",
    "metadata": {},
    "source": [
     "#### The above results are the top 5 handset per top 3 handset manufacturers"
@@ -1027,15 +1027,14 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 17,
-   "id": "793f7cda",
+   "execution_count": 14,
+   "id": "15126f7b",
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "16\n",
       "{33626320676.0: 18, 33614892860.0: 17, 33625779332.0: 17, 33659725664.0: 16, 33760536639.0: 15}\n"
      ]
     }
@@ -1054,7 +1053,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "073521a2",
+   "id": "6ed259d5",
    "metadata": {},
    "source": [
     "#### The above results show the session frequency, how may times each user connected. "
@@ -1063,7 +1062,7 @@
   {
    "cell_type": "code",
    "execution_count": 15,
-   "id": "78de88f4",
+   "id": "5edbd5e5",
    "metadata": {},
    "outputs": [
     {
@@ -1095,7 +1094,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "97ee923e",
+   "id": "1037ca96",
    "metadata": {},
    "source": [
     "#### The above results show the sum of session duration of each user in microseconds"
@@ -1104,7 +1103,7 @@
   {
    "cell_type": "code",
    "execution_count": 16,
-   "id": "cae82932",
+   "id": "01320f7b",
    "metadata": {},
    "outputs": [
     {
@@ -1154,7 +1153,7 @@
   },
   {
    "cell_type": "markdown",
-   "id": "244e0725",
+   "id": "22b384c3",
    "metadata": {},
    "source": [
     "#### The above results shows total DL and UL data per user"
@@ -1163,7 +1162,7 @@
   {
    "cell_type": "code",
    "execution_count": 17,
-   "id": "28b4408e",
+   "id": "b23a3368",
    "metadata": {},
    "outputs": [
     {
@@ -1215,18 +1214,8 @@
    ]
   },
   {
-   "cell_type": "code",
-   "execution_count": 19,
-   "id": "bf461305",
-   "metadata": {},
-   "outputs": [],
-   "source": [
-    "df_clean.to_csv(r\"C:\\\\Users\\\\dell\\\\Desktop\\\\Week1_challenge_data_sourcex.csv\", index=False)"
-   ]
-  },
-  {
    "cell_type": "markdown",
-   "id": "d208fcf6",
+   "id": "14a2505c",
    "metadata": {},
    "source": [
     "#### The above results show the aggregate data used by each customer on many different sessions"
